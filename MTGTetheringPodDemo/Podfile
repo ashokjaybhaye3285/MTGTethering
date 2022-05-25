@@ -1,0 +1,12 @@
+platform :ios, '9.0'
+
+#source 'https://github.com/CocoaPods/Specs.git'
+#source '[Your RWPodSpecs Git URL Goes Here]'
+
+use_frameworks!
+
+project 'MTGTetheringPodDemo/MTGTetheringPodDemo.xcodeproj'
+
+target 'MTGTetheringPodDemo' do
+    pod 'JDMTGTethering', :path => '../'
+end

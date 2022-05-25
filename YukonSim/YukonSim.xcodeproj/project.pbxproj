@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3462091B1D53AB4E004C88F4 /* SecurityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462091A1D53AB4E004C88F4 /* SecurityType.swift */; };
+		348D8DE91C7283FA006D1762 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D8DE81C7283FA006D1762 /* AppDelegate.swift */; };
+		348D8DEB1C7283FA006D1762 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D8DEA1C7283FA006D1762 /* ViewController.swift */; };
+		348D8DEE1C7283FA006D1762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348D8DEC1C7283FA006D1762 /* Main.storyboard */; };
+		348D8DF01C7283FA006D1762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348D8DEF1C7283FA006D1762 /* Assets.xcassets */; };
+		348D8DF31C7283FA006D1762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348D8DF11C7283FA006D1762 /* LaunchScreen.storyboard */; };
+		348D8DFD1C75041E006D1762 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348D8DFB1C75041E006D1762 /* Fabric.framework */; };
+		348D8DFE1C75041E006D1762 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348D8DFC1C75041E006D1762 /* Crashlytics.framework */; };
+		34B66CB51CBC1C2E002E0170 /* Delimiters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B66CB31CBC1C2E002E0170 /* Delimiters.swift */; };
+		34B66CB81CBC1C89002E0170 /* ConnectionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B66CB71CBC1C89002E0170 /* ConnectionStatus.swift */; };
+		34B66CC01CBC49E0002E0170 /* WiFiNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B66CBF1CBC49E0002E0170 /* WiFiNetwork.swift */; };
+		34C4140D1CBD7E90000A0940 /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C4140C1CBD7E90000A0940 /* Synchronized.swift */; };
+		4C060E7E1C7CD3F900BA93A3 /* CharacteristicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C060E7D1C7CD3F900BA93A3 /* CharacteristicsManager.swift */; };
+		4C7795EF1C84B32000141B82 /* CommunicationsManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7795EE1C84B32000141B82 /* CommunicationsManagerTests.swift */; };
+		4CB322DE1C7BCF1F007ABBFB /* CommunicationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB322DD1C7BCF1F007ABBFB /* CommunicationsManager.swift */; };
+		4CE251191C99C82100D61E22 /* MessageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE251171C99C82100D61E22 /* MessageType.swift */; };
+		4CE2511A1C99C82100D61E22 /* ProfileUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE251181C99C82100D61E22 /* ProfileUUIDs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C7795F11C84B32000141B82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 348D8DDD1C7283FA006D1762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 348D8DE41C7283FA006D1762;
+			remoteInfo = YukonSim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3462091A1D53AB4E004C88F4 /* SecurityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityType.swift; sourceTree = "<group>"; };
+		348D8DE51C7283FA006D1762 /* YukonSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YukonSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		348D8DE81C7283FA006D1762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		348D8DEA1C7283FA006D1762 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		348D8DED1C7283FA006D1762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		348D8DEF1C7283FA006D1762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		348D8DF21C7283FA006D1762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		348D8DF41C7283FA006D1762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		348D8DFB1C75041E006D1762 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		348D8DFC1C75041E006D1762 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		34B66CB31CBC1C2E002E0170 /* Delimiters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Delimiters.swift; path = ../../CommonBluetooth/Delimiters.swift; sourceTree = "<group>"; };
+		34B66CB71CBC1C89002E0170 /* ConnectionStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionStatus.swift; path = ../../CommonBluetooth/ConnectionStatus.swift; sourceTree = "<group>"; };
+		34B66CBF1CBC49E0002E0170 /* WiFiNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WiFiNetwork.swift; path = ../../CommonBluetooth/WiFiNetwork.swift; sourceTree = "<group>"; };
+		34C4140C1CBD7E90000A0940 /* Synchronized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Synchronized.swift; path = ../../CommonBluetooth/Synchronized.swift; sourceTree = "<group>"; };
+		4C060E7D1C7CD3F900BA93A3 /* CharacteristicsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacteristicsManager.swift; sourceTree = "<group>"; };
+		4C7795EC1C84B32000141B82 /* CommunicationsManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommunicationsManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7795EE1C84B32000141B82 /* CommunicationsManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationsManagerTests.swift; sourceTree = "<group>"; };
+		4C7795F01C84B32000141B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB322DD1C7BCF1F007ABBFB /* CommunicationsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationsManager.swift; sourceTree = "<group>"; };
+		4CE251171C99C82100D61E22 /* MessageType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageType.swift; path = ../../CommonBluetooth/MessageType.swift; sourceTree = "<group>"; };
+		4CE251181C99C82100D61E22 /* ProfileUUIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileUUIDs.swift; path = ../../CommonBluetooth/ProfileUUIDs.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		348D8DE21C7283FA006D1762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348D8DFE1C75041E006D1762 /* Crashlytics.framework in Frameworks */,
+				348D8DFD1C75041E006D1762 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7795E91C84B32000141B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		348D8DDC1C7283FA006D1762 = {
+			isa = PBXGroup;
+			children = (
+				348D8DFB1C75041E006D1762 /* Fabric.framework */,
+				348D8DFC1C75041E006D1762 /* Crashlytics.framework */,
+				348D8DE71C7283FA006D1762 /* YukonSim */,
+				4C7795ED1C84B32000141B82 /* Tests */,
+				348D8DE61C7283FA006D1762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		348D8DE61C7283FA006D1762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				348D8DE51C7283FA006D1762 /* YukonSim.app */,
+				4C7795EC1C84B32000141B82 /* CommunicationsManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		348D8DE71C7283FA006D1762 /* YukonSim */ = {
+			isa = PBXGroup;
+			children = (
+				348D8DF41C7283FA006D1762 /* Info.plist */,
+				348D8DE81C7283FA006D1762 /* AppDelegate.swift */,
+				4C060E7D1C7CD3F900BA93A3 /* CharacteristicsManager.swift */,
+				4CB322DD1C7BCF1F007ABBFB /* CommunicationsManager.swift */,
+				3462091A1D53AB4E004C88F4 /* SecurityType.swift */,
+				348D8DEA1C7283FA006D1762 /* ViewController.swift */,
+				348D8DEF1C7283FA006D1762 /* Assets.xcassets */,
+				4CE2511B1C99C83D00D61E22 /* CommonBluetooth */,
+				348D8DF11C7283FA006D1762 /* LaunchScreen.storyboard */,
+				348D8DEC1C7283FA006D1762 /* Main.storyboard */,
+			);
+			path = YukonSim;
+			sourceTree = "<group>";
+		};
+		4C7795ED1C84B32000141B82 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4C7795EE1C84B32000141B82 /* CommunicationsManagerTests.swift */,
+				4C7795F01C84B32000141B82 /* Info.plist */,
+			);
+			name = Tests;
+			path = CommunicationsManagerTests;
+			sourceTree = "<group>";
+		};
+		4CE2511B1C99C83D00D61E22 /* CommonBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				34C4140C1CBD7E90000A0940 /* Synchronized.swift */,
+				34B66CBF1CBC49E0002E0170 /* WiFiNetwork.swift */,
+				34B66CB31CBC1C2E002E0170 /* Delimiters.swift */,
+				4CE251171C99C82100D61E22 /* MessageType.swift */,
+				4CE251181C99C82100D61E22 /* ProfileUUIDs.swift */,
+				34B66CB71CBC1C89002E0170 /* ConnectionStatus.swift */,
+			);
+			name = CommonBluetooth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		348D8DE41C7283FA006D1762 /* YukonSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348D8DF71C7283FA006D1762 /* Build configuration list for PBXNativeTarget "YukonSim" */;
+			buildPhases = (
+				348D8DE11C7283FA006D1762 /* Sources */,
+				348D8DE21C7283FA006D1762 /* Frameworks */,
+				348D8DE31C7283FA006D1762 /* Resources */,
+				348D8DFA1C75039E006D1762 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YukonSim;
+			productName = YukonSim;
+			productReference = 348D8DE51C7283FA006D1762 /* YukonSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C7795EB1C84B32000141B82 /* CommunicationsManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C7795F31C84B32000141B82 /* Build configuration list for PBXNativeTarget "CommunicationsManagerTests" */;
+			buildPhases = (
+				4C7795E81C84B32000141B82 /* Sources */,
+				4C7795E91C84B32000141B82 /* Frameworks */,
+				4C7795EA1C84B32000141B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C7795F21C84B32000141B82 /* PBXTargetDependency */,
+			);
+			name = CommunicationsManagerTests;
+			productName = CommunicationsManagerTests;
+			productReference = 4C7795EC1C84B32000141B82 /* CommunicationsManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		348D8DDD1C7283FA006D1762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Deere & Company";
+				TargetAttributes = {
+					348D8DE41C7283FA006D1762 = {
+						CreatedOnToolsVersion = 7.2.1;
+						ProvisioningStyle = Manual;
+					};
+					4C7795EB1C84B32000141B82 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 348D8DE41C7283FA006D1762;
+					};
+				};
+			};
+			buildConfigurationList = 348D8DE01C7283FA006D1762 /* Build configuration list for PBXProject "YukonSim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 348D8DDC1C7283FA006D1762;
+			productRefGroup = 348D8DE61C7283FA006D1762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				348D8DE41C7283FA006D1762 /* YukonSim */,
+				4C7795EB1C84B32000141B82 /* CommunicationsManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		348D8DE31C7283FA006D1762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348D8DF31C7283FA006D1762 /* LaunchScreen.storyboard in Resources */,
+				348D8DF01C7283FA006D1762 /* Assets.xcassets in Resources */,
+				348D8DEE1C7283FA006D1762 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7795EA1C84B32000141B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		348D8DFA1C75039E006D1762 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 21fe68621dc5760ff66f2a9359d72319b95420fd 90a4c93430a993c823f2b305a3b021738963cc900e93c303d2e7d66e4509a236";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		348D8DE11C7283FA006D1762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348D8DEB1C7283FA006D1762 /* ViewController.swift in Sources */,
+				4CB322DE1C7BCF1F007ABBFB /* CommunicationsManager.swift in Sources */,
+				4C060E7E1C7CD3F900BA93A3 /* CharacteristicsManager.swift in Sources */,
+				4CE251191C99C82100D61E22 /* MessageType.swift in Sources */,
+				34B66CB51CBC1C2E002E0170 /* Delimiters.swift in Sources */,
+				34B66CC01CBC49E0002E0170 /* WiFiNetwork.swift in Sources */,
+				4CE2511A1C99C82100D61E22 /* ProfileUUIDs.swift in Sources */,
+				348D8DE91C7283FA006D1762 /* AppDelegate.swift in Sources */,
+				3462091B1D53AB4E004C88F4 /* SecurityType.swift in Sources */,
+				34C4140D1CBD7E90000A0940 /* Synchronized.swift in Sources */,
+				34B66CB81CBC1C89002E0170 /* ConnectionStatus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7795E81C84B32000141B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7795EF1C84B32000141B82 /* CommunicationsManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C7795F21C84B32000141B82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 348D8DE41C7283FA006D1762 /* YukonSim */;
+			targetProxy = 4C7795F11C84B32000141B82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		348D8DEC1C7283FA006D1762 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				348D8DED1C7283FA006D1762 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		348D8DF11C7283FA006D1762 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				348D8DF21C7283FA006D1762 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		348D8DF51C7283FA006D1762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		348D8DF61C7283FA006D1762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		348D8DF81C7283FA006D1762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = YukonSim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deere.YukonSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		348D8DF91C7283FA006D1762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = BNG8B42ZFB;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = YukonSim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-DRELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deere.YukonSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b0c2c1d9-f8e2-4cac-bae6-af09940f37da";
+				PROVISIONING_PROFILE_SPECIFIER = "WildCard Enterprise Distribution";
+			};
+			name = Release;
+		};
+		4C7795F41C84B32000141B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CommunicationsManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JohnDeere.CommunicationsManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YukonSim.app/YukonSim";
+			};
+			name = Debug;
+		};
+		4C7795F51C84B32000141B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CommunicationsManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JohnDeere.CommunicationsManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YukonSim.app/YukonSim";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		348D8DE01C7283FA006D1762 /* Build configuration list for PBXProject "YukonSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348D8DF51C7283FA006D1762 /* Debug */,
+				348D8DF61C7283FA006D1762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		348D8DF71C7283FA006D1762 /* Build configuration list for PBXNativeTarget "YukonSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348D8DF81C7283FA006D1762 /* Debug */,
+				348D8DF91C7283FA006D1762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C7795F31C84B32000141B82 /* Build configuration list for PBXNativeTarget "CommunicationsManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C7795F41C84B32000141B82 /* Debug */,
+				4C7795F51C84B32000141B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 348D8DDD1C7283FA006D1762 /* Project object */;
+}

@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ADD776D1D0F251B0005B6CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD776C1D0F251B0005B6CA /* AppDelegate.swift */; };
+		4ADD776F1D0F251B0005B6CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD776E1D0F251B0005B6CA /* ViewController.swift */; };
+		4ADD77721D0F251B0005B6CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADD77701D0F251B0005B6CA /* Main.storyboard */; };
+		4ADD77741D0F251B0005B6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADD77731D0F251B0005B6CA /* Assets.xcassets */; };
+		4ADD77771D0F251B0005B6CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADD77751D0F251B0005B6CA /* LaunchScreen.storyboard */; };
+		4ADD77821D0F251B0005B6CA /* MTGTetheringPodDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD77811D0F251B0005B6CA /* MTGTetheringPodDemoTests.swift */; };
+		4ADD778D1D0F251B0005B6CA /* MTGTetheringPodDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD778C1D0F251B0005B6CA /* MTGTetheringPodDemoUITests.swift */; };
+		4FCF92694D1BBC04EFF975C5 /* Pods_MTGTetheringPodDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0343A1C0C6693F4C656D16 /* Pods_MTGTetheringPodDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ADD777E1D0F251B0005B6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ADD77611D0F251B0005B6CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ADD77681D0F251B0005B6CA;
+			remoteInfo = MTGTetheringPodDemo;
+		};
+		4ADD77891D0F251B0005B6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ADD77611D0F251B0005B6CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ADD77681D0F251B0005B6CA;
+			remoteInfo = MTGTetheringPodDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ADD77691D0F251B0005B6CA /* MTGTetheringPodDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTGTetheringPodDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADD776C1D0F251B0005B6CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ADD776E1D0F251B0005B6CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4ADD77711D0F251B0005B6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ADD77731D0F251B0005B6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ADD77761D0F251B0005B6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ADD77781D0F251B0005B6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADD777D1D0F251B0005B6CA /* MTGTetheringPodDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTGTetheringPodDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADD77811D0F251B0005B6CA /* MTGTetheringPodDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGTetheringPodDemoTests.swift; sourceTree = "<group>"; };
+		4ADD77831D0F251B0005B6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADD77881D0F251B0005B6CA /* MTGTetheringPodDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTGTetheringPodDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADD778C1D0F251B0005B6CA /* MTGTetheringPodDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGTetheringPodDemoUITests.swift; sourceTree = "<group>"; };
+		4ADD778E1D0F251B0005B6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AC61CD6F629466D25A1E721 /* Pods-MTGTetheringPodDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTGTetheringPodDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MTGTetheringPodDemo/Pods-MTGTetheringPodDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BE0343A1C0C6693F4C656D16 /* Pods_MTGTetheringPodDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTGTetheringPodDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4554A880842BBFE7B4FF5C /* Pods-MTGTetheringPodDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTGTetheringPodDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MTGTetheringPodDemo/Pods-MTGTetheringPodDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ADD77661D0F251B0005B6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FCF92694D1BBC04EFF975C5 /* Pods_MTGTetheringPodDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADD777A1D0F251B0005B6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADD77851D0F251B0005B6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ADD77601D0F251B0005B6CA = {
+			isa = PBXGroup;
+			children = (
+				4ADD776B1D0F251B0005B6CA /* MTGTetheringPodDemo */,
+				4ADD77801D0F251B0005B6CA /* MTGTetheringPodDemoTests */,
+				4ADD778B1D0F251B0005B6CA /* MTGTetheringPodDemoUITests */,
+				4ADD776A1D0F251B0005B6CA /* Products */,
+				771FCE25729571A19CCB8527 /* Pods */,
+				9227E3F7511A00D89C823E8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4ADD776A1D0F251B0005B6CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ADD77691D0F251B0005B6CA /* MTGTetheringPodDemo.app */,
+				4ADD777D1D0F251B0005B6CA /* MTGTetheringPodDemoTests.xctest */,
+				4ADD77881D0F251B0005B6CA /* MTGTetheringPodDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ADD776B1D0F251B0005B6CA /* MTGTetheringPodDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4ADD776C1D0F251B0005B6CA /* AppDelegate.swift */,
+				4ADD776E1D0F251B0005B6CA /* ViewController.swift */,
+				4ADD77701D0F251B0005B6CA /* Main.storyboard */,
+				4ADD77731D0F251B0005B6CA /* Assets.xcassets */,
+				4ADD77751D0F251B0005B6CA /* LaunchScreen.storyboard */,
+				4ADD77781D0F251B0005B6CA /* Info.plist */,
+			);
+			path = MTGTetheringPodDemo;
+			sourceTree = "<group>";
+		};
+		4ADD77801D0F251B0005B6CA /* MTGTetheringPodDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ADD77811D0F251B0005B6CA /* MTGTetheringPodDemoTests.swift */,
+				4ADD77831D0F251B0005B6CA /* Info.plist */,
+			);
+			path = MTGTetheringPodDemoTests;
+			sourceTree = "<group>";
+		};
+		4ADD778B1D0F251B0005B6CA /* MTGTetheringPodDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ADD778C1D0F251B0005B6CA /* MTGTetheringPodDemoUITests.swift */,
+				4ADD778E1D0F251B0005B6CA /* Info.plist */,
+			);
+			path = MTGTetheringPodDemoUITests;
+			sourceTree = "<group>";
+		};
+		771FCE25729571A19CCB8527 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF4554A880842BBFE7B4FF5C /* Pods-MTGTetheringPodDemo.debug.xcconfig */,
+				6AC61CD6F629466D25A1E721 /* Pods-MTGTetheringPodDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9227E3F7511A00D89C823E8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE0343A1C0C6693F4C656D16 /* Pods_MTGTetheringPodDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ADD77681D0F251B0005B6CA /* MTGTetheringPodDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADD77911D0F251B0005B6CA /* Build configuration list for PBXNativeTarget "MTGTetheringPodDemo" */;
+			buildPhases = (
+				CE22CB52D7CCA15DA0CACD97 /* [CP] Check Pods Manifest.lock */,
+				4ADD77651D0F251B0005B6CA /* Sources */,
+				4ADD77661D0F251B0005B6CA /* Frameworks */,
+				4ADD77671D0F251B0005B6CA /* Resources */,
+				0673CCBFB116867B8AE3704D /* [CP] Embed Pods Frameworks */,
+				DE355DFA914109B1604B704B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTGTetheringPodDemo;
+			productName = MTGTetheringPodDemo;
+			productReference = 4ADD77691D0F251B0005B6CA /* MTGTetheringPodDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ADD777C1D0F251B0005B6CA /* MTGTetheringPodDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADD77941D0F251B0005B6CA /* Build configuration list for PBXNativeTarget "MTGTetheringPodDemoTests" */;
+			buildPhases = (
+				4ADD77791D0F251B0005B6CA /* Sources */,
+				4ADD777A1D0F251B0005B6CA /* Frameworks */,
+				4ADD777B1D0F251B0005B6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ADD777F1D0F251B0005B6CA /* PBXTargetDependency */,
+			);
+			name = MTGTetheringPodDemoTests;
+			productName = MTGTetheringPodDemoTests;
+			productReference = 4ADD777D1D0F251B0005B6CA /* MTGTetheringPodDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ADD77871D0F251B0005B6CA /* MTGTetheringPodDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADD77971D0F251B0005B6CA /* Build configuration list for PBXNativeTarget "MTGTetheringPodDemoUITests" */;
+			buildPhases = (
+				4ADD77841D0F251B0005B6CA /* Sources */,
+				4ADD77851D0F251B0005B6CA /* Frameworks */,
+				4ADD77861D0F251B0005B6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ADD778A1D0F251B0005B6CA /* PBXTargetDependency */,
+			);
+			name = MTGTetheringPodDemoUITests;
+			productName = MTGTetheringPodDemoUITests;
+			productReference = 4ADD77881D0F251B0005B6CA /* MTGTetheringPodDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ADD77611D0F251B0005B6CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sitter Nicholas J";
+				TargetAttributes = {
+					4ADD77681D0F251B0005B6CA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4ADD777C1D0F251B0005B6CA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4ADD77681D0F251B0005B6CA;
+					};
+					4ADD77871D0F251B0005B6CA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4ADD77681D0F251B0005B6CA;
+					};
+				};
+			};
+			buildConfigurationList = 4ADD77641D0F251B0005B6CA /* Build configuration list for PBXProject "MTGTetheringPodDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ADD77601D0F251B0005B6CA;
+			productRefGroup = 4ADD776A1D0F251B0005B6CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ADD77681D0F251B0005B6CA /* MTGTetheringPodDemo */,
+				4ADD777C1D0F251B0005B6CA /* MTGTetheringPodDemoTests */,
+				4ADD77871D0F251B0005B6CA /* MTGTetheringPodDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ADD77671D0F251B0005B6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADD77771D0F251B0005B6CA /* LaunchScreen.storyboard in Resources */,
+				4ADD77741D0F251B0005B6CA /* Assets.xcassets in Resources */,
+				4ADD77721D0F251B0005B6CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADD777B1D0F251B0005B6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADD77861D0F251B0005B6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0673CCBFB116867B8AE3704D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MTGTetheringPodDemo/Pods-MTGTetheringPodDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE22CB52D7CCA15DA0CACD97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE355DFA914109B1604B704B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MTGTetheringPodDemo/Pods-MTGTetheringPodDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ADD77651D0F251B0005B6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADD776F1D0F251B0005B6CA /* ViewController.swift in Sources */,
+				4ADD776D1D0F251B0005B6CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADD77791D0F251B0005B6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADD77821D0F251B0005B6CA /* MTGTetheringPodDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADD77841D0F251B0005B6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADD778D1D0F251B0005B6CA /* MTGTetheringPodDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ADD777F1D0F251B0005B6CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ADD77681D0F251B0005B6CA /* MTGTetheringPodDemo */;
+			targetProxy = 4ADD777E1D0F251B0005B6CA /* PBXContainerItemProxy */;
+		};
+		4ADD778A1D0F251B0005B6CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ADD77681D0F251B0005B6CA /* MTGTetheringPodDemo */;
+			targetProxy = 4ADD77891D0F251B0005B6CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ADD77701D0F251B0005B6CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ADD77711D0F251B0005B6CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ADD77751D0F251B0005B6CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ADD77761D0F251B0005B6CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ADD778F1D0F251B0005B6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ADD77901D0F251B0005B6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ADD77921D0F251B0005B6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4554A880842BBFE7B4FF5C /* Pods-MTGTetheringPodDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MTGTetheringPodDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deere.MTGTetheringPodDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4ADD77931D0F251B0005B6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC61CD6F629466D25A1E721 /* Pods-MTGTetheringPodDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MTGTetheringPodDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deere.MTGTetheringPodDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4ADD77951D0F251B0005B6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTGTetheringPodDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deere.MTGTetheringPodDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTGTetheringPodDemo.app/MTGTetheringPodDemo";
+			};
+			name = Debug;
+		};
+		4ADD77961D0F251B0005B6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTGTetheringPodDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deere.MTGTetheringPodDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTGTetheringPodDemo.app/MTGTetheringPodDemo";
+			};
+			name = Release;
+		};
+		4ADD77981D0F251B0005B6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTGTetheringPodDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deere.MTGTetheringPodDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTGTetheringPodDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4ADD77991D0F251B0005B6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTGTetheringPodDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deere.MTGTetheringPodDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTGTetheringPodDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ADD77641D0F251B0005B6CA /* Build configuration list for PBXProject "MTGTetheringPodDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADD778F1D0F251B0005B6CA /* Debug */,
+				4ADD77901D0F251B0005B6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADD77911D0F251B0005B6CA /* Build configuration list for PBXNativeTarget "MTGTetheringPodDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADD77921D0F251B0005B6CA /* Debug */,
+				4ADD77931D0F251B0005B6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADD77941D0F251B0005B6CA /* Build configuration list for PBXNativeTarget "MTGTetheringPodDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADD77951D0F251B0005B6CA /* Debug */,
+				4ADD77961D0F251B0005B6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADD77971D0F251B0005B6CA /* Build configuration list for PBXNativeTarget "MTGTetheringPodDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADD77981D0F251B0005B6CA /* Debug */,
+				4ADD77991D0F251B0005B6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ADD77611D0F251B0005B6CA /* Project object */;
+}

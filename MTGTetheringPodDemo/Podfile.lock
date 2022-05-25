@@ -1,0 +1,16 @@
+PODS:
+  - JDMTGTethering (0.1.0)
+
+DEPENDENCIES:
+  - JDMTGTethering (from `../`)
+
+EXTERNAL SOURCES:
+  JDMTGTethering:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JDMTGTethering: 0f6be9eb595b5c1b559e254514345a9fb33473a6
+
+PODFILE CHECKSUM: c2ee461c96c3e1b84d4856f5963389b40d46b9b2
+
+COCOAPODS: 1.0.1

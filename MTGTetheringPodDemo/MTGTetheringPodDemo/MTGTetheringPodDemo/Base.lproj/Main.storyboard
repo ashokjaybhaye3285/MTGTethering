@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Bi7-ZU-S7y">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="UUl-Na-a5a">
+            <objects>
+                <navigationController id="Bi7-ZU-S7y" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OJi-Fk-8qq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="r3U-Jr-guW" kind="relationship" relationship="rootViewController" id="YkR-rh-GYk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vx7-Qw-l6o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="327" y="423"/>
+        </scene>
+        <!--MTG Tethering Pod Demo-->
+        <scene sceneID="JaK-yZ-g5z">
+            <objects>
+                <viewController id="r3U-Jr-guW" customClass="ViewController" customModule="MTGTetheringPodDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pcU-Xa-2FX"/>
+                        <viewControllerLayoutGuide type="bottom" id="vnG-BA-Oau"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MAh-bO-0IE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BL3-O4-uMP">
+                                <rect key="frame" x="50" y="281" width="500" height="39"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="22"/>
+                                <state key="normal" title="Launch Demo"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="r3U-Jr-guW" eventType="touchUpInside" id="D9r-FL-OKD"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="95X-GA-Lt9">
+                                <rect key="frame" x="240" y="338" width="121" height="29"/>
+                                <segments>
+                                    <segment title="Ag"/>
+                                    <segment title="C &amp; F"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="BL3-O4-uMP" secondAttribute="trailing" constant="30" id="3Ew-6X-1Gc"/>
+                            <constraint firstItem="95X-GA-Lt9" firstAttribute="top" secondItem="BL3-O4-uMP" secondAttribute="bottom" constant="18" id="NbR-RF-VYH"/>
+                            <constraint firstItem="BL3-O4-uMP" firstAttribute="leading" secondItem="MAh-bO-0IE" secondAttribute="leadingMargin" constant="30" id="iJO-jw-Yf5"/>
+                            <constraint firstItem="95X-GA-Lt9" firstAttribute="centerX" secondItem="BL3-O4-uMP" secondAttribute="centerX" id="mg3-5a-KbV"/>
+                            <constraint firstItem="BL3-O4-uMP" firstAttribute="centerY" secondItem="MAh-bO-0IE" secondAttribute="centerY" id="pUN-uj-c0d"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="MTG Tethering Pod Demo" id="Dbr-pT-Bb7" userLabel="MTG Tethering Pod Demo"/>
+                    <connections>
+                        <outlet property="themeSelector" destination="95X-GA-Lt9" id="SMh-tQ-5br"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xRB-40-swE" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1161" y="423"/>
+        </scene>
+    </scenes>
+</document>
